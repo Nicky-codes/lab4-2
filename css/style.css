@@ -147,5 +147,32 @@ a {
     padding: 24px 18px 0;
     border-radius: 12px;
     background-color: #D48DA0;
-
 }
+
+.image-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 125px;
+    border-radius: 11px;
+    background-color: #CCE2E4;
+    font-family: georgia, serif;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card h3 {
+    margin: 4px 0 0;
+    font-family: georgia, serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.card .primary-button {
+    margin-top: auto;
+    margin-bottom: 0;
+    min-width: 65%;
+}
+
