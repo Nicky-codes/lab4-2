@@ -69,5 +69,29 @@ a {
     padding: 24px;
     background-color: #D4A4A4;
     color: white;
+}
 
+.hero-main h1 {
+    margin-bottom: 18px;
+    font-size: 28px;
+}
+
+.hero-main p {
+    font-size: 21px;
+}
+
+.primary-button {
+    display: inline-block;
+    padding: 13px 24px;
+    width: fit-content;
+    border-radius: 12px;
+    background-color: #B5E0D6;
+    color: #D4A4A4;
+    font-size: 20px;
+    text-align: center;
+}
+
+.hero-main .primary-button {
+    align-self: center;
+    margin-top: auto;
 }
