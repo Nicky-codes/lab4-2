@@ -176,3 +176,21 @@ a {
     min-width: 65%;
 }
 
+.site-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    padding: 28px 24px;
+    background-color: #F7F7F7;
+    font-size: 20px;
+}
+
+.site-footer p {
+    margin: 0;
+}
+
+.site-footer a {
+    color: black;
+}
