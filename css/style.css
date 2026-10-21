@@ -95,3 +95,25 @@ a {
     align-self: center;
     margin-top: auto;
 }
+
+.quick-info {
+    min-height: 280px;
+    padding: 24px;
+    background-color: #B5E0D6;
+}
+
+.quick-info h2 {
+    color: white;
+    font-family: georgia, serif;
+    font-size: 27px;
+}
+
+.session-link {
+    display: block;
+    margin: 42px 0;
+    color: white;
+    font-family: georgia, serif;
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+}
