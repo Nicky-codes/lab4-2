@@ -194,3 +194,57 @@ a {
 .site-footer a {
     color: black;
 }
+
+@media (min-width: 768px) {
+    body {
+        padding: 4.2% 5.5%;
+    }
+
+    .site-header {
+    flex-direction: row;
+    padding: 24px 45px;
+    min-height: 95px;
+  }
+
+   .site-header nav {
+    gap: 28px;
+  }
+
+  .hero {
+    grid-template-columns: 2fr 1fr;
+    gap: 24px;
+  }
+
+    .hero-main,
+  .quick-info {
+    min-height: 330px;
+  }
+
+  .hero-main .primary-button {
+    margin-top: auto;
+    margin-bottom: 38px;
+  }
+
+  .gallery {
+    padding: 20px 22px 14px;
+  }
+
+  .card-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 24px;
+  }
+
+  .card {
+    min-height: 254px;
+  }
+
+  .image-placeholder {
+    min-height: 128px;
+  }
+
+  .site-footer {
+    flex-direction: row;
+    min-height: 94px;
+    padding: 28px;
+  }
+}
