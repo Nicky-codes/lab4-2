@@ -53,3 +53,10 @@ a {
     background-color: #5DA079;
     border-radius: 12px;
 }
+
+.hero {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0;
+    margin-bottom: 24px;
+}
