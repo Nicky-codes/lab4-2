@@ -24,7 +24,7 @@ a {
 }
 
 .site-header {
-    display: flex;
+    display:flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
@@ -33,3 +33,16 @@ a {
     margin-bottom: 22px;
     background-color: #A8EFD3;
 }
+
+.logo {
+    font-size: 26px;
+    color: #111111;
+}
+
+.site-header nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+
