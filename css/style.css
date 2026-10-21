@@ -23,3 +23,13 @@ a {
     text-decoration: none;
 }
 
+.site-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 24px;
+    margin-bottom: 22px;
+    background-color: #A8EFD3;
+}
