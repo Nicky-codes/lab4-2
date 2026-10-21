@@ -1,1 +1,15 @@
+* {
+    box-sizing: border-box;
+}
 
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 24px;
+    background-color: #F1ECEC;
+    color:#111111;
+    font-family: Ariel, sans-serif;
+}
