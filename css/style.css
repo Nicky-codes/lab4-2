@@ -13,3 +13,13 @@ body {
     color:#111111;
     font-family: Ariel, sans-serif;
 }
+
+h1, h2, h3,
+p { 
+    margin-top: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
