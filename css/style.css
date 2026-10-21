@@ -100,20 +100,21 @@ a {
     min-height: 280px;
     padding: 24px;
     background-color: #B5E0D6;
+    font-weight: bold;
 }
 
 .quick-info h2 {
     color: white;
     font-family: georgia, serif;
     font-size: 27px;
+    font-weight: normal;
 }
 
 .session-link {
     display: block;
     margin: 42px 0;
-    color: white;
+    color: black;
     font-family: georgia, serif;
     font-size: 27px;
-    font-weight: bold;
     text-align: center;
 }
