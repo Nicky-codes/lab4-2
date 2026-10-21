@@ -60,3 +60,14 @@ a {
     gap: 0;
     margin-bottom: 24px;
 }
+
+.hero-main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 280px;
+    padding: 24px;
+    background-color: #D4A4A4;
+    color: white;
+
+}
